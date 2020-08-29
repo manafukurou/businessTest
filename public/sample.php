@@ -3,16 +3,19 @@
     $dataList[] = array(
         "title" => "上海",
         "discription" => "同国の商業・金融・工業・交通などの中心地。強力な世界都市であり、アメリカのシンクタンクが2017年に発表した総合的な世界都市ランキングにおいて、世界9位と評価された",
+        "country" => "中国",
         "img" => "img/img1.jpg"
     );
     $dataList[] = array(
         "title" => "ベネチア",
         "discription" => "中世にはヴェネツィア共和国の首都として栄えた都市で、「アドリア海の女王」「水の都」などの別名を持つ",
+        "country" => "イタリア",
         "img" => "img/img2.jpg"
     );
     $dataList[] = array(
         "title" => "アムステルダム",
         "discription" => "オランダの首都。北ホラント州の基礎自治体であり、オランダ最大の都市である。商業や観光が盛んなヨーロッパ屈指の世界都市である",
+        "country" => "オランダ",
         "img" => "img/img3.jpg"
     );
     $i = 1; 
@@ -42,6 +45,9 @@
                     <div class="card-body">
                     <h5 class="card-title"><?php echo $data["title"]; ?></h5>
                     <p class="card-text"><?php echo $data["discription"]; ?></p>
+                    <div class="text-right" >
+                        <?php echo $data["country"]; ?>
+                    </div>
                     </div>
                 </div>
             <?php }?>
