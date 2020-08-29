@@ -42,6 +42,7 @@
                     <div class="card-body">
                     <h5 class="card-title"><?php echo $data["title"]; ?></h5>
                     <p class="card-text"><?php echo $data["discription"]; ?></p>
+                    test
                     </div>
                 </div>
             <?php }?>
